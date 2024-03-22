@@ -1,0 +1,123 @@
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	color: darkslategrey;
+    background: #ffffff;
+    background-image: url(../images/Wood.jpg);
+    background-size: 100% 100%;
+	margin: 0px;
+	padding: 0px;
+}
+#holder {
+	width: 70%;
+    background: #e6a071;
+	background-color: #f7decf;
+    border-bottom-right-radius: 50px;
+    -webkit-box-shadow: #000 0 8px 5px;
+    box-shadow: #000 6px 6px 4px;
+	margin: 0 auto;
+	
+}
+
+
+
+header {
+	background: #e6a071;
+}
+nav {
+	width: 20%; 
+	float: left;
+	padding: 0;
+    text-align: center;
+    
+}
+.offer {
+	margin: 0 0 0 20%;
+	padding: 15px;
+	border-left: 1px solid #736B5E;
+}
+
+img {  
+	width:80%;
+	margin: 10px 10%;
+      }
+
+article ol li {
+    font-size: 90%;
+    line-height: 1.6;
+	text-align: left;
+	
+}
+
+
+footer {
+	padding: 10px;
+    height: 30px;
+	border-top: 1px solid #736B5E;
+	font-size: 90%;
+    text-align: center;
+    color: darkslategrey;
+}
+
+	footer a { color: darkslategray;}
+    
+
+.menu {
+	font: bold 150% cursive;
+	color: white;
+    text-align: center;
+	margin: 0;
+	padding: 20px 10px;
+}
+
+
+h2 {
+    font-family: 'Righteous', cursive;
+    font-size:130%;
+	text-align: center;
+}
+	
+nav ul  {	
+	margin: 10px;
+	padding: 0.2rem;
+    
+	}
+	
+	nav ul li  {
+	list-style-type: none;
+    margin-bottom: 10px;
+	
+	}
+	
+	nav ul a {
+	display: block;  
+	padding: 0.4rem;
+	color: white;
+	font-size: 1rem;
+	font-weight: bold;
+	text-decoration: none;
+	background-color:#e6a071 ;
+	border-radius: 0.5em;
+	
+	}
+	/* adjustment for smaller screens */
+
+	@media only screen and (max-width: 916px) {
+		#holder {
+			width: 90%;
+		}
+		nav {
+			width: 100%; 
+			float: none;
+		}
+		.offer {
+			margin: 0;
+		}
+		img {
+			width: 100%; 
+			margin: 10px 0;
+		}
+
+		footer {
+			font-size: 60%;
+		}
+	}
