@@ -16,6 +16,12 @@ body {
   margin-bottom:20px;
 }
 
+/* Image */
+.contact-image { 
+  padding:30px 0 ;
+  max-width: 100%;
+  }
+ /* title animation WEBD5 Advanced CSS ILS Hamburg */
 h1 {
     padding : 10px;
     font-size: 50px;
@@ -35,25 +41,26 @@ h1 span {
       opacity: 1;
   }
 }
-
+ /* Column flex container */
   .container { display: flex;
       flex-direction:column;
-      align-items:flex-start; }
+      align-items:flex-start;
+    }
+
+/* Form style*/
 
   .formular {
-    padding: 20px;
+      padding: 20px;
       display: flex;
-      max-width: 500px ;
       flex-direction: column;
       justify-content: center ;
       align-items: center;
-      margin-top:  0;
-
-      
+      margin-top: 0;     
   }
   
   form label,
   form input {
+      left :20%;
       display: block;
       margin-bottom: 8px;     
       }
