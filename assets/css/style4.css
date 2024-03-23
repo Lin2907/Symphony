@@ -3,9 +3,11 @@ body {
   margin: 0 auto;
   padding: 0;
   font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
   background-color: white;
-  overflow-x: hidden;
-  }
+  
+  
+}
 
 .dancing-script-letter {
   font-family: "Dancing Script", cursive;
@@ -15,20 +17,21 @@ body {
   margin-bottom:20px;
 }
 
-/* Image */
+/* Image styles */
 .contact-image { 
   padding:30px 0 ;
   max-width: 100%;
   }
- /* title animation fadeIn source: WEBD5 Advanced CSS ILS Hamburg */
-h1 {
-    padding : 10px;
-    font-size: 50px;
-    text-align: center;
-}
 
+
+h1 {
+  padding : 10px;
+  font-size: 50px;
+  text-align: center;
+
+}
 h1 span {
-  display: inline-block;
+  display: inline-block;                          /* Source for fadeIn effect : WEBD5 book ILS school Hamburg*/
   animation: fadeIn ease-out 8s;
 }
 
@@ -40,63 +43,64 @@ h1 span {
       opacity: 1;
   }
 }
- /* Container */
+
+.container { max-width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin: 20px;
+}
+
+/* Content styles */
+.column {
+  flex: 1;
+  margin : 10px;
  
- .container { max-width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 20px; }
+}
 
+.formular {
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    margin-top:  0;
 
-    /*Column style */
-    .column { 
-      flex:1;
-      margin:10px; 
+    
+}
+
+form label,
+form input {
+    left:20%;
+    display: block;
+    margin-bottom: 8px;     
     }
 
-/* Form style*/
+form input {
+    width: 330px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
 
-  .formular {
-      padding: 20px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center ;
-      align-items: center;
-      margin-top: 0;     
-  }
-  
-  form label,
-  form input {
-      left :20%;
-      display: block;
-      margin-bottom: 8px;     
-      }
-  
-  form input {
-      width: 330px;
-      padding: 5px;
-      box-sizing: border-box;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-  }
-  
-  form input[type="submit"] {
-      background-color:#e6a071;
-      color: white;
-      cursor: pointer;
-      border-radius: 5px;
-      }
+form input[type="submit"] {
+    background-color:#e6a071;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    }
 
 p { 
-  line-height: 1.5;
-  margin-top: 10px;
-  padding:2px;
-  font-family: sans-serif, cursive ;
-  font-size: 14px;
- text-align:center;
- color: darkslategray;
+line-height: 1.5;
+margin-top: 10px;
+padding:2px;
+font-family: sans-serif, cursive ;
+font-size: 14px;
+text-align:center;
+color: darkslategray;
 }
+
+
 
 nav {
   position: relative;
@@ -106,6 +110,7 @@ nav {
   padding: 10px 0; 
   display: flex;
   justify-content:space-between; 
+  z-index: 2;
   box-sizing: border-box;
   background-color: #e6a071;
 }
@@ -130,23 +135,14 @@ nav ul li a {
 nav a:hover {
   padding-left:10px; }
 
-  footer {
-      position: fixed;
-      bottom: 0%;
-      width: 100%;
-      text-align: center;
-      padding: 10px 0;
-      background-color: #e6a071;
-      color: #fff;
-      
-}
+footer {
+  position:relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #e6a071;
 
-footer a:hover { padding-left: 10px;}
-
-.fa-instagram, 
-.fa-facebook ,
-.fa-linkedin {
-  
   color: white;
 }
 
@@ -162,58 +158,34 @@ footer a { color:white;}
   #nav a:focus, #nav a:hover, #nav a:active {
       color:grey; }
 
-      @media screen and (max-width: 860px) {
-        .container {
-          flex-direction: column;
-        }
-      
-        article {
-          margin-right: 0;
-        }
-        
-        h1 {
-            font-size: 30px;
-            margin-top: 20px;
-            margin-left: 20px;
-            width:70%;
-        }
-      
-        p {
-          font-size: 100%;
-          text-align: center;
-          margin-bottom: 20px;
-          margin-top: 20px;
-        }
-      
-        img { position: relative;
-              width: 100%;
-              left:0%;
+      @media screen and (max-width: 768px) {
+          .container {
+              flex-direction: column;
+              margin:0;
             }
+      
+           p {
+              font-size: 14px;
+          }
+      
+          .contact-image {
+              margin :0;
+          }
+      
+          img {
+            max-width: 100%;
+          }
 
+          h1 {
+              font-size: 30px;
+              margin-top: 20px;
+              margin-left: 20px;}
+              
         
-      
-      nav ul li a { 
-        display: flex ;
-        font-size: 15px; }
+        nav ul li a { 
+          display: flex ;
+          font-size: 14px;}
 
-        form input {
-          width: 280px;
-           }
-          
-      
-
-
-      
-      form label,
-      form input {
-        
-          display: block;
-          margin-bottom: auto;
-          padding: 4px;
-
-    }
-
-    footer { position: relative;
-    font-size:13px;}
-
-}
+        footer { position:relative;
+          font-size:13px;}
+      }
