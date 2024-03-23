@@ -8,24 +8,18 @@ body {
   
 }
 
-header { 
-  display:flex;
-   height : 70px;
-   width:100%;
-   }
+.dancing-script-letter {
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  font-style: normal;
+  color:#e6a071;
+  margin-bottom:20px;
+}
 
 h1 {
-  font-family: "Dancing Script", cursive;
-  padding : 30px;
-  font-size: 40px;
-  text-align: center;
-  color: #e6a071;
-  margin: 0; 
-  position: relative;
-  width: 40%;   
-  
-  /* reminder  transform: translateY(-50%); will position h1 in the middle of the screen*/ 
-
+    padding : 10px;
+    font-size: 50px;
+    text-align: center;
 }
 
 h1 span {
