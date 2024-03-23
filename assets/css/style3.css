@@ -110,6 +110,10 @@ footer {
 
 footer a { color:white;}
 
+footer a :hover { 
+  padding-left: 10px;
+}
+
 #nav a:link {
 
   text-decoration:none;

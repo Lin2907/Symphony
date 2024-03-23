@@ -134,6 +134,9 @@ footer {
     color: #fff;
 }
 
+footer a:hover { padding-left: 10px;}
+
+
 footer a { color:white;}
 
 #nav a:link {
