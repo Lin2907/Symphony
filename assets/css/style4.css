@@ -21,7 +21,7 @@ body {
   padding:30px 0 ;
   max-width: 100%;
   }
- /* title animation WEBD5 Advanced CSS ILS Hamburg */
+ /* title animation fadeIn source: WEBD5 Advanced CSS ILS Hamburg */
 h1 {
     padding : 10px;
     font-size: 50px;
@@ -45,6 +45,12 @@ h1 span {
   .container { display: flex;
       flex-direction:column;
       align-items:flex-start;
+    }
+
+    /*Column style */
+    .column { 
+      flex:1;
+      margin:10px; 
     }
 
 /* Form style*/
@@ -83,11 +89,10 @@ h1 span {
 
 p { 
   line-height: 1.5;
-margin-left: 4%;
-margin-top: 10px;
-padding:2px;
- font-family: sans-serif, cursive ;
- font-size: 14px;
+  margin-top: 10px;
+  padding:2px;
+  font-family: sans-serif, cursive ;
+  font-size: 14px;
  text-align:center;
  color: darkslategray;
 }
