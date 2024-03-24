@@ -97,7 +97,8 @@ nav a:hover {
 
 
 
-.column p { font-family: cursive;
+.column p { 
+    font-family: sans-serif;
     line-height: 1.6;
     font-size: 15px;
     color: darkslategrey;
@@ -114,8 +115,6 @@ h2 {
 font-family: "Dancing Script", cursive;
 font-style: normal;
 }
-
-
 
 img {
     max-width: 100%;
@@ -147,10 +146,6 @@ footer a { color:white;}
 }
 #nav a:visited { 
     color:white; }
-    #nav a:focus, #nav a:hover, #nav a:active {
-        color:grey;
-
-    }
 
     @media only screen and (max-width: 768px) {
         .container {
@@ -164,7 +159,6 @@ footer a { color:white;}
         }
 
         #nav { display: flex ;
-            
             }
   
             h1 {
@@ -183,9 +177,9 @@ footer a { color:white;}
     }
 
     nav ul li a { 
+        font-family: sans-serif;
         display: flex ;
         font-size: 15px;
-    
         
     }
 }
