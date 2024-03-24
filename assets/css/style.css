@@ -63,14 +63,12 @@ footer a:hover { padding-left: 10px;}
 footer a { color:white;}
 
 #nav a:link {
-    color : grey;
+    color :#e6a071;
     text-decoration:none;
     font-weight:bold;
 
 }
 
-    #nav a:focus, #nav a:hover, #nav a:active {
-        color:grey; }
 
 h1 {
     font-family: 'Poppins', sans-serif;
@@ -121,6 +119,7 @@ h1 {
     
 
     nav ul li a { 
+        font-family: 'Poppins', sans-serif;
         display: flex ;
         font-size: 14px;
       }
