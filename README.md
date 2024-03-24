@@ -32,11 +32,11 @@ The Contact page offers a simple contact form that users can use to get in touch
 
 #### The Menu page
 
-The menu page provides users with a comprehensive overview of what our restaurant has to offer, with a main page featuring tempting images and insights into our menu choices, as well as a detailed sub-page showcasing the full menu for diners to explore. 
+The menu page provides users with a comprehensive overview of what a restaurant has to offer, with a main page featuring tempting images and insights into the menu choices, including a recipe. 
 
 <img src="assets/media/menupage.png" alt="Menu page">
 
-+ The subpage includes the full menu
+The detailed sub-page includes the full menu for users to explore. Each segment is accompanied by descriptive text and illustrative images to highlight its meaning and benefits.
 
 <img src="assets/media/subpage.png" alt="Subpage full menu">
 
@@ -52,6 +52,23 @@ In About us section users can learn more about the restaurant's mission and visi
 The Contact page offers a simple contact form that users can use to get in touch with us if they have any feedback, bookings or other questions. 
 
 <img src="assets/media/contact.png" alt="Contact form">
+
+#### Footer
+
+The footer bar includes links to social media profiles, allowing users to stay updated on the latest news and promotions. Additionally, it features restaurant's address with a direct link to the location on maps for easy navigation, as well as the phone number for quick inquiries and reservations. 
+
+This comprehensive footer ensures that users can easily access essential information and connect with our restaurant across various channels.
+
+<img src ="assets/media/footer.png" alt="Footer bar with links">
+
+
+
+
+
+
+
+
+
 
 
 
