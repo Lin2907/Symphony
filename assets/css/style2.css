@@ -178,7 +178,7 @@ footer a { color:white;}
 
     nav ul li a { 
         display: flex ;
-        font-size: 13px;
+        font-size: 0.8em;
         
     }
 }
