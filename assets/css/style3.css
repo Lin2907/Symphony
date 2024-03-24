@@ -5,11 +5,7 @@ body {
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
   background-color: white;
-  
-  
-}
-
-
+  }
 
 .dancing-script-letter {
   font-family: "Dancing Script", cursive;
@@ -89,7 +85,7 @@ nav ul li {
 nav ul li a {
   font-weight: bold;
   font-size: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: cursive;
   text-decoration: none;
   color: white;
 }
@@ -142,6 +138,7 @@ footer a :hover {
           }
         
         nav ul li a { 
+          font-family: 'Poppins', sans-serif;
           display: flex ;
           font-size: 15px;
 
