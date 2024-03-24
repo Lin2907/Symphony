@@ -39,7 +39,6 @@ nav ul li {
 nav ul li a {
     font-weight: bold;
     font-size: 20px;
-    font-family: cursive;
     text-decoration: none;
     color: #e6a071;
 }
@@ -119,7 +118,6 @@ h1 {
     
 
     nav ul li a { 
-        font-family: 'Poppins', sans-serif;
         display: flex ;
         font-size: 14px;
       }

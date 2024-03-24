@@ -1,6 +1,7 @@
 
 body {
     box-sizing: border-box;
+    font-family: "Poppins" sans-serif;
     margin: 0;
     padding: 0;
     background-color: #e6a071;
@@ -64,7 +65,7 @@ nav ul li {
 nav ul li a {
     font-weight: bold;
     font-size: 20px;
-    font-family: cursive;
+    font-family: "Poppins", sans-serif;
     text-decoration: none;
     color: #e6a071;
 }
@@ -177,7 +178,6 @@ footer a { color:white;}
     }
 
     nav ul li a { 
-        font-family: sans-serif;
         display: flex ;
         font-size: 15px;
         

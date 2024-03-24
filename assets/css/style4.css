@@ -126,7 +126,7 @@ nav ul li {
 nav ul li a {
   font-weight: bold;
   font-size: 20px;
-  font-family: cursive;
+  font-family: "Poppins" , sans-serif;
   text-decoration: none;
   color: white;
 }
@@ -180,7 +180,6 @@ footer a:hover { padding-left: 10px;
               
         
         nav ul li a { 
-          font-family: sans-serif;
           display: flex ;
           font-size: 15px;}
 
