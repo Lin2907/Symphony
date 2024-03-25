@@ -1,4 +1,4 @@
-body {
+body {                                                     /*Body stles incl. background image*/
 	font: 100% Verdana, Arial, Helvetica, sans-serif;
 	color: darkslategrey;
     background: #ffffff;
@@ -7,22 +7,23 @@ body {
 	margin: 0px;
 	padding: 0px;
 }
-#holder {
+#holder {                  /*Holder styles */
 	width: 70%;
     background: #e6a071;
 	background-color: #f7decf;
-    border-bottom-right-radius: 50px;
-    -webkit-box-shadow: #000 0 8px 5px;
+    border-bottom-right-radius: 50px; 
     box-shadow: #000 6px 6px 4px;
 	margin: 0 auto;
 	
 }
 
-
+/*Heading stlyes*/
 
 header {
 	background: #e6a071;
 }
+
+/*Navigation block style*/
 nav {
 	width: 20%; 
 	float: left;
@@ -47,18 +48,6 @@ article ol li {
 	text-align: left;
 	
 }
-
-
-footer {
-	padding: 10px;
-    height: 30px;
-	border-top: 1px solid #736B5E;
-	font-size: 90%;
-    text-align: center;
-    color: darkslategrey;
-}
-
-	footer a { color: darkslategray;}
     
 
 .menu {
@@ -97,8 +86,21 @@ nav ul  {
 	text-decoration: none;
 	background-color:#e6a071 ;
 	border-radius: 0.5em;
-	
 	}
+
+	/*Footer styles including ext. link styling*/
+
+footer {
+	padding: 10px;
+    height: 30px;
+	border-top: 1px solid #736B5E;
+	font-size: 90%;
+    text-align: center;
+    color: darkslategrey;
+}
+
+	footer a { color: darkslategray;}
+	
 	/* adjustment for smaller screens */
 
 	@media only screen and (max-width: 916px) {
