@@ -112,7 +112,7 @@ The live link can be found here - https://lin2907.github.io/Symphony/
 * ### Content
    + The animated text for The Home page was taken from the tutorial [Create Text Animation For Website Using CSS](https://www.youtube.com/watch?v=mikht2lEnI0)
 
-   + Letter fade effect used on Menu,About and Contact page was taken from WEBD 5 book from ILS Hamburg school
+   + Letter fade effect used on Menu, About and Contact page was taken from WEBD 5 book from ILS Hamburg school
 
    + The icons in the footer and for the Contaact page were taken from [Font Awesome](https://fontawesome.com/)
 
