@@ -3,7 +3,6 @@ body {
   margin: 0 auto;
   padding: 0;
   font-family: 'Poppins', sans-serif;
-  box-sizing: border-box;
   background-color: white;
   }
 
@@ -59,7 +58,7 @@ p {
 img { 
   max-width: 63%;
 }
-
+ /* Navigation bar ,links and link states style */
 nav {
   position: relative;
   top: 0;
@@ -93,12 +92,18 @@ nav ul li a {
 nav a:hover {
   padding-left:10px; }
 
+  #nav a:link {
+    text-decoration:none;
+    font-weight:bold;
+  }
+
+ /* Footer style , incl. footer links styles */
 footer {
-  position:relative;
+  position: relative;
   bottom: 0;
   width: 100%;
   text-align: center;
-  padding: 23px 0;
+  padding: 25px 0;
   background-color: #e6a071;
   color: white;
 }
@@ -109,18 +114,12 @@ footer a :hover {
   padding-left: 10px;
 }
 
-#nav a:link {
-
-  text-decoration:none;
-  font-weight:bold;
-
-}
+/* Smaller screens adjustment*/
 
       @media screen and (max-width: 960px) {
           .container {
             flex-direction: column;
           }
-        
           article {
             margin-right: 0;
           }
@@ -141,9 +140,8 @@ footer a :hover {
           display: flex ;
           font-size: 0.8em;
 
+           }
 
-        }
-
-        footer { position:relative;
+        footer {
           font-size:13px;}
       }
