@@ -114,9 +114,7 @@ The live link can be found here - https://lin2907.github.io/Symphony/
 
    + Letter fade effect used on Menu, About and Contact page was taken from WEBD 5 book from ILS Hamburg school
 
-   + The icons in the footer and for the Contaact page were taken from [Font Awesome](https://fontawesome.com/)
-
-   + The text for About me and Menu pages was generated with Chat GPT
+   + The icons in the footer and for the Contact page were taken from [Font Awesome](https://fontawesome.com/)
 
    + The Favicon was taken from [Favicon.io](https://favicon.io/)
 
