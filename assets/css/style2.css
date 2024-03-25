@@ -1,5 +1,5 @@
 
-body {
+body {                                         /* Body stlye*/
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@ body {
     overflow-x: hidden;    
     
 }
-
+ /* Header styling*/
 header {
     display: flex;
     color: #e6a071;
@@ -27,7 +27,7 @@ h1 {
     
 }
 
-h1 span {
+h1 span {                              /* Source: WEBD5 ILS Hamburg*/
     display: inline-block;
     animation: fadeIn ease-out 5s;
 }
@@ -41,6 +41,10 @@ h1 span {
     }
 }
 
+/* End of fade letters effect */
+
+/*Navigation bar styling*/
+
 nav {
     position: absolute;
     top: 0;
@@ -51,6 +55,8 @@ nav {
     justify-content:space-between; 
     z-index:2;
 }
+
+/* Navigation link styling and state styling*/
 
 nav ul {
     list-style: none;
@@ -72,7 +78,16 @@ nav ul li a {
 nav a:hover {
     padding-left:10px; }
 
+ #nav a:link {
+        color : white;
+        text-decoration:none;
+        font-weight:bold;
+    
+    }
+ #nav a:visited { 
+        color:white; }
 
+  /* Container and columns styling */
 .container {
     max-width: 100%;
     display: flex;
@@ -116,12 +131,14 @@ font-family: "Dancing Script", cursive;
 font-style: normal;
 }
 
+/*  Images adjustment*/
 img {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
 }
+/*Footer styles incl. links */
 
 footer {
     position: relative;
@@ -138,14 +155,7 @@ footer a:hover { padding-left: 10px;}
 
 footer a { color:white;}
 
-#nav a:link {
-    color : white;
-    text-decoration:none;
-    font-weight:bold;
-
-}
-#nav a:visited { 
-    color:white; }
+/* Smaller screens adjustment*/
 
     @media only screen and (max-width: 768px) {
         .container {
