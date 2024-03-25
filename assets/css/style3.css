@@ -8,12 +8,11 @@ body {
 
 .dancing-script-letter {
   font-family: "Dancing Script", cursive;
-  
   font-weight: bold;
   font-style: normal;
   color:darkslategrey;
 }
-
+ /* Heading positioning and styling*/
 h1 {
   padding : 10px;
   font-size: 50px;
