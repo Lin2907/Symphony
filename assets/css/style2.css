@@ -27,7 +27,7 @@ h1 {
     
 }
 
-h1 span {                              /* Source: WEBD5 ILS Hamburg*/
+h1 span {                              /* Source used: WEBD5 ILS Hamburg*/
     display: inline-block;
     animation: fadeIn ease-out 5s;
 }
