@@ -8,7 +8,7 @@ The Restaurant Simphony website is designed to showcase the features and offerin
 
 Through a combination of informative content, engaging visuals, and user-friendly navigation, the website aims to attract potential customers and provide them with essential information about Restaurant Symphony.
 
-<img src="assets/media/Responsive.png" alt= " Different screen responsiveness">
+<img src="assets/media/responsive.png" alt= " Different screen responsiveness">
 
 # Features
 
@@ -101,7 +101,7 @@ Through a combination of informative content, engaging visuals, and user-friendl
 * Accesibility
   + I confirmed that the colors and fonts are chosen are easy to read and accessible by running it through lighthouse in devtools.
 
-  <img src= "assets/media/Accessibility.png" alt="Accesibility screenshot">
+  <img src= "assets/media/accessibility.png" alt="Accesibility screenshot">
 
 
 ## Bugs
