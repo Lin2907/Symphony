@@ -54,6 +54,7 @@ Through a combination of informative content, engaging visuals, and user-friendl
 * ### Contact
 
    + The Contact page offers a simple contact form that users can use to get in touch with us if they have any feedback, bookings or other questions. 
+   + The "Send" button establishes a connection to the Code Institute's website, where receipt is confirmed.
 
 <img src="assets/media/contact.png" alt="Contact form">
 
