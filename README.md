@@ -32,7 +32,7 @@ Through a combination of informative content, engaging visuals, and user-friendl
 
 * ### The Menu page
 
-     + The menu page provides users with a comprehensive overview of what a restaurant has to offer, with a main page featuring tempting images and insights into the menu choices, including a recipe.
+     + The menu page provides users with a comprehensive overview of what a restaurant has to offer, with a main page featuring tempting images and insights into the menu choices, and also an external link directing users to discover recipe, which opens in new tab for uninterrupted browsing.
 
 <img src="assets/media/menupage.png" alt="Menu page">
 
@@ -68,6 +68,19 @@ Through a combination of informative content, engaging visuals, and user-friendl
 ### Features left to Implement
 
 * It includes FAQs and links to customer support resources to help users resolve any issues they may encounter while using Restaurant Symphony website.
+
+## Design
+
+* ### Colors
+     + Primary color : Bright Orange
+     + Secondary color : White
+
+The color palette of orange coupled with white embodies the inviting ambiance of the culinary world, evoking a sense of comfort and sophistication.
+
+* ### Typography
+   + Sans Serif: The main font gives off a classic elegance and adds a timeless appeal to the content. 
+   + Dancing Script: The secondary font brings a playful spirit to the design, capturing the dynamic and vibrant spirit.
+   
 
 ### Technology used
 
