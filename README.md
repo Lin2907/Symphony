@@ -67,6 +67,11 @@ Through a combination of informative content, engaging visuals, and user-friendl
 
 * It includes FAQs and links to customer support resources to help users resolve any issues they may encounter while using Restaurant Symphony website.
 
+### Technology used
+
+ * HTML , CSS
+ * GitHub, Gitpod
+
 ## Testing
 
 1. #### Functionality
@@ -93,15 +98,28 @@ Through a combination of informative content, engaging visuals, and user-friendl
 * CSS
    + No errors were found when passing through the official (Jigsaw) validator [(Jigsaw) validator ](https://jigsaw.w3.org/css-validator/)
 
+* Accesibility
+  + I confirmed that the colors and fonts are chosen are easy to read and accessible by running it through lighthouse in devtools.
+
+  <img src= "assets/media/Accessibility.png" alt="Accesibility screenshot">
+
+
+## Bugs
+
+  * When I deployed my project to GitHub , I discovered that the Favicon was not displaying on the Contact Page.
+  The reason behind this issue was that the path to favicon was not added correctly.
+  Fixed this by adding the correct path.
+
 ## Unfixed bugs
-Dark mode visibility
+ * Dark mode visibility - The landing page isn't showing the Animated Text due to dark mode.
 
 ## Deployment
 
-* The site was deployed to GitHub pages. The steps to deploy are as follows:
+* The site was deployed to GitHub pages. Since I started building my website on VSCode a desktop version and got bigger part of it, I first uploaded the already coded files to IDE and after added few changes, deployed it to GitHub. The steps to deploy are as follows:
    + In the GitHub repository, navigated to the Settings tab
    + From the source section drop-down menu, selected the Master Branch
    + Once the master branch has been selected, the page was automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+   + It took some 5 minutes for the project to be deployed.
 
 The live link can be found here - https://lin2907.github.io/Symphony/
 
