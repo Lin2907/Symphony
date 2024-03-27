@@ -63,7 +63,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 12px; 
+    margin: 0 20px; 
 }
 
 nav ul li a {
@@ -177,7 +177,9 @@ footer a { color:white;}
     header {
         padding: 10px 0 5px 0; 
     }
-
+     nav ul li { margin : 0 10px;
+    }
+    
     nav ul li a { 
         display: flex ;
         font-size: 0.8em;
