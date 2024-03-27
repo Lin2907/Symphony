@@ -22,7 +22,6 @@ body {
   max-width: 100%;
   }
 
-
 h1 {
   padding : 20px;
   font-size: 50px;
@@ -157,38 +156,42 @@ footer a:hover { padding-left: 10px;
   font-weight:bold;
 }
 
-      @media screen and (max-width: 768px) {     /* Small screens adjustments*/
-          .container {
-              flex-direction: column;
-              margin:0;
-            }
+@media screen and (max-width: 768px) {     /* Small screens adjustments*/
+ .container {
+          flex-direction: column;
+          margin:0;
+       }
       
-           p {
-              font-size: 14px;
-          }
+  p {
+    font-size: 14px;
+    }
       
-          .contact-image {
-              margin:0;
+  .contact-image {
+    margin:0;
           }
 
-          .column { margin :0;
+  .column { margin :0;
           }
       
-          img {
-            max-width: 100%;
+  img {
+     max-width: 100%;
           }
 
-          h1 {
-              font-size: 30px;
-              margin-top: 20px;
-              margin-left: 20px;}
-              
+  h1 {
+      font-size: 30px;
+      margin-top: 20px;
+    margin-left: 20px;}
+  
+    nav ul li {
+      margin: 0 10px; 
+  }
         
-        nav ul li a { 
-          display: flex ;
-          font-size: 0.8em;}
+  nav ul li a { 
+  display: flex ;
+  font-size: 0.8em;}
 
-        footer { position:relative;
-          font-size:13px;}
+  footer { 
+  position:relative;
+  font-size:13px;}
 
-      }
+  }

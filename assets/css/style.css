@@ -96,9 +96,6 @@ h1 {                                                  /*Main content style*/
     animation: backcolor 5s linear infinite alternate;
 }
 
-
-
-
 @keyframes backcolor {
     100% {
         background-position: 0 0;
@@ -116,12 +113,15 @@ h1 {                                                  /*Main content style*/
 
     nav {
         padding: 30px 3%;}
-    
 
+    nav ul li {
+        margin : 0 12px;
+    }
+    
     nav ul li a { 
         display: flex ;
         font-size: 0.8em;
-      }
+        }
 
     footer {
         font-size:13px;}

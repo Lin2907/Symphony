@@ -23,8 +23,7 @@ h1 {
     padding: 50px; 
     display: flex; 
     color: white;
-    font-weight: bold;
-    
+    font-weight: bold;    
 }
 
 h1 span {                              /* Source used: WEBD5 ILS Hamburg*/
@@ -64,7 +63,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 15px; 
+    margin: 0 12px; 
 }
 
 nav ul li a {
@@ -82,8 +81,7 @@ nav a:hover {
         color : white;
         text-decoration:none;
         font-weight:bold;
-    
-    }
+     }
  #nav a:visited { 
         color:white; }
 
@@ -93,8 +91,7 @@ nav a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 20px;
-    
+    margin: 20px;    
 }
 
 .column {
@@ -110,8 +107,6 @@ nav a:hover {
     box-shadow:  grey 4px 4px 2px;
 }
 
-
-
 .column p { 
     font-family: sans-serif;
     line-height: 1.6;
@@ -124,7 +119,6 @@ h2 {
     font-weight: bold;
     text-align: center;
 }
-
 
 .dancing-script-letter {                                  /* Source : https://fonts.google.com */
 font-family: "Dancing Script", cursive;
@@ -150,8 +144,8 @@ footer {
     color: #fff;
 }
 
-footer a:hover { padding-left: 10px;}
-
+footer a:hover { padding-left: 10px;
+}
 
 footer a { color:white;}
 
@@ -161,8 +155,6 @@ footer a { color:white;}
         .container {
             flex-direction: column;
         }
-    
-    
         .column {
             flex: 100%;
             margin: 10px 0;
