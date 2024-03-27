@@ -75,6 +75,8 @@ Through a combination of informative content, engaging visuals, and user-friendl
      + Primary color : Bright Orange
      + Secondary color : White
 
+        <img src= "assets/media/color.png" alt= "Bright orange color">
+
 The color palette of orange coupled with white embodies the inviting ambiance of the culinary world, evoking a sense of comfort and sophistication.
 
 * ### Typography
@@ -139,6 +141,13 @@ Cause: Incorrect path to favicon.
 
 The live link can be found here - https://lin2907.github.io/Symphony/
 
+## Fork a GitHub Repository
+
+* To fork a repo, log in to your account and then go to the repository. In the top-right corner of the window, there is a "Fork" button with a number to the right of it, which represents the number of times the repository has been forked. Go ahead and click that button.
+
+ * A message will briefly appear letting you know that the forking process has started. It only takes a few seconds to fork the repo.
+
+ * You're now safe to make any changes to the code in your forked repository that you like. To do so, just clone the forked repository to your local machine and get busy!
 
 
 ## Credits
