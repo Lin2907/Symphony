@@ -10,6 +10,8 @@ Through a combination of informative content, engaging visuals, and user-friendl
 
 <img src="assets/media/responsive.png" alt= " Different screen responsiveness">
 
+<br>
+
 # Features
 
 ## Existing Features
@@ -106,12 +108,13 @@ Through a combination of informative content, engaging visuals, and user-friendl
 
 ## Bugs
 
-  * When I deployed my project to GitHub , I discovered that the Favicon was not displaying on the Contact Page.
-  The reason behind this issue was that the path to favicon was not added correctly.
-  Fixed this by adding the correct path.
+* Issue: Favicon not displaying on Contact Page.
+Cause: Incorrect path to favicon.
+ * Fix: Updated the path to the favicon to resolve the issue.
+ * Resolution: To address this bug, the correct path to the favicon was added, ensuring its proper display on the Contact Page.
 
 ## Unfixed bugs
- * Dark mode visibility - The landing page isn't showing the Animated Text due to dark mode.
+ * No known issues.
 
 ## Deployment
 
