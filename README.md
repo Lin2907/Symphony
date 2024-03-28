@@ -117,7 +117,7 @@ The color palette of orange coupled with white embodies the inviting ambiance of
    + No errors were found when passing through the official (Jigsaw) validator [(Jigsaw) validator ](https://jigsaw.w3.org/css-validator/)
 
 * Accesibility
-  + I confirmed that the colors and fonts are chosen are easy to read and accessible by running it through lighthouse in devtools.
+  + I confirmed that the colors and fonts are chosen are easy to read and accessible by running it through Lighthouse in devtools.
 
   <img src= "assets/media/accessibility.png" alt="Accesibility screenshot">
 
@@ -134,7 +134,7 @@ Cause: Incorrect path to favicon.
 
 ## Deployment
 
-* The site was deployed to GitHub pages. Since I started building my website on VSCode a desktop version and got bigger part of it, I first uploaded the already coded files to IDE and after added few changes, deployed it to GitHub. The steps to deploy are as follows:
+* The site was deployed to GitHub pages. The steps to deploy are as follows:
    + In the GitHub repository, navigated to the Settings tab
    + From the source section drop-down menu, selected the Master Branch
    + Once the master branch has been selected, the page was automatically refreshed with a detailed ribbon display to indicate the successful deployment.
